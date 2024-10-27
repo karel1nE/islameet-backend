@@ -21,46 +21,27 @@
 app/main.py
 
 # Текущее дерево проекта (Oct 27, 2024)
+```
 .
-
 ├── alembic
-
 │   ├── env.py
-
 │   ├── README
-
 │   ├── script.py.mako
-
 │   └── versions
-
 │       └── c73ef81c1676_init.py
-
 ├── alembic.ini
-
 ├── app
-
 │   ├── main.py
-
 │   ├── models
-
 │   │   └── user.py
-
 │   ├── repositories
-
 │   │   └── user_repository.py
-
 │   ├── routers
-
 │   │   └── user_router.py
-
 │   ├── schemas
-
 │   │   └── user.py
-
 │   └── services
-
 │       └── user_service.py
-
 └── db
-
     └── database.py
+```
