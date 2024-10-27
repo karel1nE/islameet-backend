@@ -21,20 +21,46 @@
 app/main.py
 
 # Текущее дерево проекта (Oct 27, 2024)
-ISLAMEET
-│
+.
+
+├── alembic
+
+│   ├── env.py
+
+│   ├── README
+
+│   ├── script.py.mako
+
+│   └── versions
+
+│       └── c73ef81c1676_init.py
+
+├── alembic.ini
+
 ├── app
+
 │   ├── main.py
+
 │   ├── models
+
 │   │   └── user.py
-│   ├── schemas
-│   │   └── user.py
+
 │   ├── repositories
+
 │   │   └── user_repository.py
-│   ├── services
-│   │   └── user_service.py
-│   └── routers
-│       └── user_router.py
-├── db
-│   └── database.py
-└── requirements.txt
+
+│   ├── routers
+
+│   │   └── user_router.py
+
+│   ├── schemas
+
+│   │   └── user.py
+
+│   └── services
+
+│       └── user_service.py
+
+└── db
+
+    └── database.py
